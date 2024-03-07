@@ -1,0 +1,162 @@
+{
+    "DanhMuc": [
+        {
+            "_id": "1",
+            "loaiSP": "Món chính"
+        },
+        {
+            "_id": "2",
+            "loaiSP": "Đồ uống"
+        },
+        {
+            "_id": "3",
+            "loaiSP": "Ăn vặt"
+        },
+        {
+            "_id": "4",
+            "loaiSP": "Món chay"
+        },
+        {
+            "_id": "5",
+            "loaiSP": "Món thêm"
+        }
+    ],
+    "Product": {
+        "1": [
+            {
+                "_id": "1",
+                "sp": "Phở bò",
+                "img": "https://i.ibb.co/FY80fx5/phoBo.jpg",
+                "gia": 35000,
+                "moTa": "Phở bò thơm ngon"
+            },
+            {
+                "_id": "2",
+                "sp": "Hủ tiếu mực",
+                "img": "https://i.ibb.co/HVBJfq2/hu-Tieu-Muc.jpg",
+                "gia": 45000,
+                "moTa": "Hủ tiếu mực thơm ngon"
+            },
+            {
+                "_id": "3",
+                "sp": "Bún riêu",
+                "img": "https://i.ibb.co/jTBjfDq/bunRieu.jpg",
+                "gia": 35000,
+                "moTa": "Bún riêu thơm ngon"
+            }
+        ],
+        "2": [
+            {
+                "_id": "4",
+                "sp": "Cà phê",
+                "img": "https://i.ibb.co/WK9h9HF/cafe-den.png",
+                "gia": 15000,
+                "moTa": "Cà phê đen nóng"
+            },
+            {
+                "_id": "5",
+                "sp": "Capuchino",
+                "img": "https://i.ibb.co/M83tvWz/cafe-sua.png",
+                "gia": 30000,
+                "moTa": "Capuchino nóng"
+            },
+            {
+                "_id": "6",
+                "sp": "Cam vắt",
+                "img": "https://i.ibb.co/MV5Hppm/camVat.png",
+                "gia": 15000,
+                "moTa": "Cam vắt mát lạnh"
+            }
+        ],
+        "3": [
+            {
+                "_id": "7",
+                "sp": "Bánh tráng trộn",
+                "img": "https://i.ibb.co/1qq9XbK/banh-Trang-Tron.jpg",
+                "gia": 25000,
+                "moTa": "Bánh tráng trộn thơm ngon"
+            },
+            {
+                "_id": "8",
+                "sp": "Bánh tráng nướng",
+                "img": "https://i.ibb.co/Nm4gNG6/banh-Trang-Nuong.webp",
+                "gia": 25000,
+                "moTa": "Bánh tráng nướng nóng giòn"
+            },
+            {
+                "_id": "9",
+                "sp": "Bánh tráng cuộn",
+                "img": "https://i.ibb.co/DpWXYDD/banh-Trang-Cuon.jpg",
+                "gia": 25000,
+                "moTa": "Bánh tráng cuộn thơm ngon"
+            }
+        ],
+        "4": [
+            {
+                "_id": "10",
+                "sp": "Mì chay",
+                "img": "https://i.ibb.co/CKnSGg0/phoChay.jpg",
+                "gia": 25000,
+                "moTa": "Mì chay thơm ngon"
+            },
+            {
+                "_id": "11",
+                "sp": "Đậu hũ túi tiền",
+                "img": "https://i.ibb.co/jwq4n7v/dau-Hu-Tui-Tien.png",
+                "gia": 20000,
+                "moTa": "Đậu hũ túi tiền thơm ngon"
+            },
+            {
+                "_id": "12",
+                "sp": "Chả giò chay",
+                "img": "https://i.ibb.co/s6RWLWy/cha-Gio-Chay.jpg",
+                "gia": 5000,
+                "moTa": "Chả giò chay nóng giòn"
+            }
+        ],
+        "5": [
+            {
+                "_id": "13",
+                "sp": "Tôm",
+                "img": "https://i.ibb.co/kyZsPJh/tom.png",
+                "gia": 15000
+            },
+            {
+                "_id": "14",
+                "sp": "Thịt bò",
+                "img": "https://i.ibb.co/WHLfzrC/thitBo.jpg",
+                "gia": 50000
+            }
+        ]
+    },
+    "Cart": [
+        {
+            "_id": "1",
+            "sp": "Phở bò",
+            "img": "https://i.ibb.co/FY80fx5/phoBo.jpg",
+            "soLuong": 1,
+            "gia": 35000
+        },
+        {
+            "_id": "2",
+            "sp": "Hủ tiếu mực",
+            "img": "https://i.ibb.co/HVBJfq2/hu-Tieu-Muc.jpg",
+            "soLuong": 1,
+            "gia": 45000
+        },
+        {
+            "_id": "4",
+            "sp": "Capuchino",
+            "img": "https://i.ibb.co/M83tvWz/cafe-sua.png",
+            "soLuong": 1,
+            "gia": 30000
+        },
+        {
+            "_id": "5",
+            "sp": "Cam vắt",
+            "img": "https://i.ibb.co/MV5Hppm/camVat.png",
+            "soLuong": 2,
+            "gia": 15000
+        }
+    ]
+}
